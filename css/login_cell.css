@@ -1,0 +1,89 @@
+/*------ GERAL -------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* centralizando o corpo*/
+
+#centro {
+  background-color: rgb(27, 149, 224);
+  background-image: linear-gradient(135deg, rgb(29, 161, 242), rgb(152, 28, 235));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/*---------- CONFIGURANDO OS INPUTS --------------*/
+.nickname {
+  position: inherit;
+  top: 30%;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2em;
+  height: 20%;
+  width: 95%;
+  border: none;
+  background: transparent;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  transition: all 0.2s linear;
+}
+  .nickname:focus {
+    border-bottom: 1px solid #f1f1f1;
+    outline:none;
+    margin-left: 2%;
+    height: 25%;
+    top: 15%;
+  }
+    .nickname::-webkit-input-placeholder {
+      color: rgba(251, 249, 255, 0.5);
+    }
+
+.senha {
+  text-decoration: none;
+  position: inherit;
+  top: 45%;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 2em;
+  height: 20%;
+  width: 95%;
+  border: none;
+  background-clip: border-box;
+  background: transparent;
+  margin-left: 5%;
+}
+  .senha:focus {
+    border-bottom: 1px solid #f1f1f1;
+    outline: none;
+    margin-left: 2%;
+    top: 50%
+  }
+    .senha::-webkit-input-placeholder {
+      color: rgba(251, 249, 255, 0.5);
+    }
+
+.button1 {
+  font-size: 2.5em;
+  font-family: "open Sans", sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  position: fixed;
+  bottom: 10%;
+  border:none;
+  width: 40%;
+  height: 10%;
+  padding: 1%;
+  box-shadow: 2px 2px 30px rgba(0,0,0, 0.5);
+}
+ .button1:hover {
+   box-shadow: 2px 2px 30px rgba(33,104,15, 1);
+   cursor: pointer;
+ }

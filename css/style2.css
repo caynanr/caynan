@@ -1,0 +1,210 @@
+/*
+GERAL
+*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(27, 149, 224);
+  background-image: linear-gradient(135deg, rgb(29, 161, 242), rgb(152, 28, 235));
+  font-family: Raleway, sans-serif;
+}
+h1, h2, h3 {
+  font-size: 1.7em;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+
+/*--------TA NA HORA DE CHECKAR ALGUMAS COISAS POR AQUI -----------*/
+#check {
+  display:none;
+}
+  #check:checked ~ nav{
+    display: none;
+  }
+  #check:checked ~ header {
+    display: none;
+  }
+    #check:checked ~ label h1 {
+      width: 100%;
+      font-weight: normal;
+      color: #ffffff;
+      background-color: rgb(27, 149, 224);
+      background-image: linear-gradient(135deg, rgb(29, 161, 242), rgb(152, 28, 235));
+      position: fixed;
+      margin: 0%;
+      left: 0%;
+      top: 0%;
+      border-radius: 0px;
+      box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+    }
+      #check:checked ~ #portfolio {
+        color: #000000;
+        background-color: #ffffff;
+        display: flex;
+        margin-top: 3%;
+        margin-left: 15%;
+        float: left;
+      }
+      #check:checked ~ #portfolio h2 {
+        color: #000000;
+      }
+
+
+label h1 {
+  display: flex;
+  flex-direction:column;
+  float: left;
+  width: 18%;
+  padding: 1%;
+  color: #ffffff;
+  position: fixed;
+  left: 1%;
+}
+label h1:hover {
+  cursor: progress;
+  background-color: rgb(27, 149, 224);
+  background-image: linear-gradient(135deg, rgb(29, 161, 242), rgb(152, 28, 235));
+  color: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+  border-radius: 2%;
+}
+
+footer {
+  display: none;
+}
+
+/*
+MENU DE NAVEGAÇÃO
+*/
+.menu {
+  background-color:;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 20%;
+  position: fixed;
+  top: 20%;
+  left: 1%;
+  box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+}
+
+  .menu ul {
+    list-style: none;
+    background-color: #ffffff;
+    width: 20%;
+    border-radius: 2%;
+    position: fixed;
+    top:;
+    height: 70%;
+  }
+
+    .menu ul li{
+      width: 82%;
+      /*box-shadow: 2px 2px 30px rgba(0,0,0,.5);*/
+      background-color: rgb(27, 149, 224);
+      background-image: linear-gradient(135deg, rgb(29, 161, 242), rgb(152, 28, 235));
+      margin-bottom: 5%;
+      margin-left: %;
+      padding: 9%;
+      position: relative;
+      top: 6%;
+    }
+
+      #item1:hover {
+        /*background-color: #2A93F1;*/
+        box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+      }
+      #item2:hover {
+        /*background-color: #2A93F1;*/
+        box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+      }
+      #item3:hover {
+        /*background-color: #2A93F1;*/
+        box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+      }
+      #item4:hover {
+        /*background-color: #2A93F1;*/
+        box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+      }
+
+      #item5:hover {
+        /*background-color: #2A93F1;*/
+        box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+      }
+
+
+
+/*
+CABEÇALHO SOBRE
+*/
+
+#sobre p {
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 10%;
+  margin: 9% solid #ffffff;
+  float: right;
+  margin-top: 1%;
+  margin-right: 4%;
+}
+
+  #sobre h2 {
+    /*background-color: #ffffff;*/
+    color: #ffffff;
+    /*box-shadow: 2px 2px 30px rgba(0,0,0,.5);*/
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1%;
+    float: right;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+  }
+
+/*
+PORTFÓLIO
+*/
+#portfolio {
+  background-color: ;
+  /*box-shadow: 2px 2px 30px rgba(0,0,0,.5);*/
+  flex-direction: column;
+  float: right;
+  width: 70%;
+  padding: 2%;
+  margin-top:;
+  margin-right: 2%;
+}
+
+  #portfolio h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  #portfolio h2:hover {
+    box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+    #portfolio img {
+      width: 100%;
+      margin-bottom: 10px;
+      box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+    }
