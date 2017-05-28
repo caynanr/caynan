@@ -4,6 +4,9 @@
   padding: 0px;
   margin: 0px;
 }
+body h1 {
+  display: none;
+}
 
 /* centralizando o corpo*/
 
@@ -86,4 +89,11 @@
  .button1:hover {
    box-shadow: 2px 2px 30px rgba(33,104,15, 1);
    cursor: pointer;
+ }
+
+ /*-----CONFIGURANDO MEDIA QUERYS------*/
+@media all and (max-width:720px) and (orientation:landscape){
+   #centro {
+     display: none;
+   }
  }

@@ -35,7 +35,7 @@ span {
   position: absolute;
   width: 7%;
   height: 0.7%;;
-  top: 7%;
+  top: 5%;
   right: 0%;
   transition: all 0.4s linear;
 }
@@ -80,7 +80,7 @@ span:after{
 }
 
 
-/*B---------- BARRA DE TÍTULO ------------*/
+/*---------- BARRA DE TÍTULO ------------*/
 label h1 {
   flex-direction: column;
   width: 90%;
@@ -90,7 +90,6 @@ label h1 {
   margin-bottom: 1%;
   color:#f1f1f1;
   background-color: transparent;
-  /*box-shadow: 2px 2px 30px rgba(0,0,0,.5);*/
 }
 
 /*----- MENU DE NAVEGAÇÃO ------*/
@@ -152,12 +151,11 @@ label h1 {
     position: inherit;
   }
     #sobre h2 {
-      display: none;
       margin-bottom: 1%;
       border-radius: 1.5%;
       box-shadow: 2px 2px 30px rgba(0,0,0,.5);
       position: inherit;
-      background-color: #ffffff;
+      background-color:;
       color: #ffffff;
       width: 80%;
       margin-left: 5%;
@@ -168,7 +166,6 @@ label h1 {
 /* ------ PORTFÓLIO IMAGENS --------- */
 #portfolio {
   margin-top: 4%;
-  /*background-color: red;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,7 +176,6 @@ label h1 {
   #portfolio h2 {
     color: #000;
     background-color: #ffffff;
-    /*box-shadow: 2px 2px 30px rgba(0,0,0,.5);*/
     width: 80%;
     height: 5%;
     margin-bottom: 2%;
